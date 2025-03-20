@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Акулинина Виктория</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-section">
+        <h1 class="main-title">Список задач</h1>
+    </header>
+    <section class="form-section">
+        <form class="task-form">
+            <h2 class="form-title">Новая задача</h2>
+            <input class="task-input" placeholder="Название задачи..." type="text">
+            <button class="add-task-btn" id="addTaskBtn">Добавить</button>
+        </form>
+    </section>
+    <section class="tasks-section">
+        <ul class="task-category pending">
+            <h3 class="category-title">Бэклог</h3>
+            <li class="task-category-item">Выучить JS</li>
+            <li class="task-category-item">Выучить React</li>
+            <li class="task-category-item">Сделать домашку</li>
+        </ul>
+        <ul class="task-category in-progress">
+            <h3 class="category-title">В процессе</h3>
+            <li class="task-category-item">Выпить джус</li>
+            <li class="task-category-item">Попить воды</li>
+        </ul>
+        <ul class="task-category completed">
+            <h3 class="category-title">Готово</h3>
+            <li class="task-category-item">Позвонить маме</li>
+            <li class="task-category-item">Погладить кота!</li>
+        </ul>
+        <ul class="task-category discarded">
+            <h3 class="category-title">Корзина</h3>
+            <li class="task-category-item">Сходить погулять</li>
+            <li class="task-category-item">Прочитать всего Достоевского</li>
+            <button class="clear-btn" id="clearTasksBtn">x Очистить</button>
+        </ul>
+    </section>
+</body>
+</html>
